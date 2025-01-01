@@ -1,30 +1,35 @@
-# Task Management Application
+# Simple Task Manager
 
-A simple task management application built using **Node.js**, **Express**, and **EJS** for server-side rendering, with **Tailwind CSS** for styling. This application allows users to create, view, and read tasks stored as text files on the server.
-
----
+A simple task management application built using **Node.js**, **Express**, and **EJS** for server-side rendering, with **Tailwind CSS** for styling. This application allows users to create, view, and manage tasks stored as text files on the server.
 
 ## Features
 
-- **Create Tasks**: Add tasks with a title and description.
-- **View Tasks**: View a list of all tasks created.
-- **Read Task Details**: View the full content of a specific task.
-- **Dynamic Rendering**: Uses EJS templates to dynamically render tasks.
-- **File-Based Storage**: Tasks are stored as `.txt` files in the `files` directory.
-
----
-
-## Technologies Used
-
-- **Backend**: Node.js, Express.js
-- **Frontend**: EJS, Tailwind CSS
-- **File Handling**: Node.js `fs` module
-
----
+- Add, view, and delete tasks.
+- Tasks are stored as text files on the server.
+- Simple and intuitive UI styled with Tailwind CSS.
+- Built using Express.js for handling routes and server-side logic.
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/task-manager.git
-   cd task-manager
+### 1. Clone the repository
+Clone this repository to your local machine by running:
+
+```bash
+git clone https://github.com/Magxtron/Simple-Task-Manager.git
+
+2. Navigate to the project folder
+Go into the project directory:
+
+   cd Simple-Task-Manager
+
+3. Install dependencies
+Run the following command to install the necessary dependencies:
+
+npm install
+
+4. Run the application
+After the installation is complete, start the application using nodemon:
+
+nodemon index.js
+
+The application will start and be available at http://localhost:3000 (or the configured port).
